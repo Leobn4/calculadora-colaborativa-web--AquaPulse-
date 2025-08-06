@@ -1,4 +1,4 @@
-using System;
+dusing System;
 
 namespace CalculadoraWeb
 {
@@ -44,11 +44,11 @@ namespace CalculadoraWeb
             return a + b;
         }
 
-        // Integrante 2
-        // public static double Subtracao(double a, double b)
-        // {
-        //     // Implementar aqui
-        // }
+        // Leonardo Belem
+         public static double Subtracao(double a, double b)
+         {
+            return a - b;
+         }
 
         // Integrante 3
         // public static double Multiplicacao(double a, double b)
@@ -70,4 +70,5 @@ namespace CalculadoraWeb
         // }
     }
 }
+
 
