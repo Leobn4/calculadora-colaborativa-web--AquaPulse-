@@ -23,10 +23,10 @@ namespace CalculadoraWeb
         // }
 
         // Integrante 3
-        // public static double Multiplicacao(double a, double b)
-        // {
-        //     // Implementar aqui
-        // }
+        public static double Multiplicacao(double a, double b)
+        {
+            return a * b;
+        }
 
         // Integrante 4
         // public static double Divisao(double a, double b)
@@ -42,3 +42,4 @@ namespace CalculadoraWeb
         // }
     }
 }
+
