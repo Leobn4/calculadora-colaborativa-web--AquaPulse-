@@ -7,7 +7,35 @@ namespace CalculadoraWeb
         static void Main(string[] args)
         {
             Console.WriteLine("Calculadora Colaborativa Web");
-            // Integrante 1: Implementar menu e chamar as funções
+            // Gustavo Cravo
+            Console.WriteLine("Selecione qual operação deseja realizar.");
+            int operacao = 0;
+            Console.WriteLine("Digite um número>");
+            double a = double.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o segundo número.");
+            double b = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Qual operação deseja realizar?");
+            operacao = int.Parse(Console.Readline());
+            switch (operacao)
+            {
+                case 1:
+                    Console.WriteLine("Adição");
+                    Adicao();
+                    break;
+                case 2:
+                    Console.WriteLine("Subtração");
+                    Subtracao();
+                    break;
+                case 3;
+                    Console.WriteLine("Multiplicação");
+                    Multiplicacao();
+                    break;
+                case 4;
+                    Console.WriteLine("Divisão");
+                    Divisao();
+                    break;
+            }
         }
 
         // Leonardo Belem 
@@ -43,5 +71,3 @@ namespace CalculadoraWeb
         // }
     }
 }
-
-
