@@ -10,7 +10,7 @@ namespace CalculadoraWeb
             // Integrante 1: Implementar menu e chamar as funções
         }
 
-        // Integrante 1
+        // Leonardo Belem 
         public static double Adicao(double a, double b)
         {
             return a + b;
@@ -43,4 +43,5 @@ namespace CalculadoraWeb
         // }
     }
 }
+
 
