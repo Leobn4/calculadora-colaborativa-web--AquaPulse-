@@ -38,7 +38,7 @@ namespace CalculadoraWeb
             }
         }
 
-        // Gustavo Cravo
+        // Leonardo Belem 
         public static double Adicao(double a, double b)
         {
             return a + b;
@@ -57,10 +57,11 @@ namespace CalculadoraWeb
         // }
 
         // Integrante 4
-        // public static double Divisao(double a, double b)
-        // {
-        //     // Implementar aqui
-        // }
+        // public static double Divisao(double a, double b)    
+    }
+    return a / b;
+    }
+        
 
 
   // Integrante 5
@@ -70,4 +71,3 @@ namespace CalculadoraWeb
         // }
     }
 }
-
